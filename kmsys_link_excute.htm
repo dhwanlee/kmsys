@@ -1,0 +1,13 @@
+<html>
+<head>
+<script type="text/javascript">
+ function mySystem(id, pass) {
+ var WshShell = new ActiveXObject("WScript.Shell");
+ WshShell.Run("c:\\kmsys\\kmsys.exe" +  " "  + id +  " "  + pass);
+ }
+</script>
+</head>
+<body>
+<a href="javascript:mySystem('01083', '2061')">한종통합시스템</a><br>
+</body>
+</html>
